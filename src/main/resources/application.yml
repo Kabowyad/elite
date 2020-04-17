@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_bot
+    username: postgres
+    password: 12345
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
+  jpa:
+    open-in-view: false
